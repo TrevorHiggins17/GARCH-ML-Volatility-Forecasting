@@ -16,6 +16,6 @@ Returns AS (
 SELECT date, 
        daily_return, 
        ma_5
-FROM returns
+FROM Returns
 WHERE daily_return IS NOT NULL
 ORDER BY date;
